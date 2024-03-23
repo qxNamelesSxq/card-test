@@ -1,0 +1,51 @@
+@import '/src/global.scss';
+
+.card {
+    width: 18rem;
+    min-height: 15rem;
+    color: $white !important;
+    background-color: $dark-grey !important;
+    border-radius: 10px;
+}
+
+.cardAdd {
+    background-color: $black !important;
+    border: 5px solid $light-green !important;
+}
+
+.titleCard {
+    color: $light-green !important;
+}
+
+.iconBody {
+    color: $light-green;
+    &:hover {
+        color: $green;
+    }
+    &:active {
+        color: $white;
+    }
+}
+
+.editButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2em;
+    background-color: $light-green !important;
+    border-radius: 10px !important;
+    padding: 0 !important;
+    color: $black !important;
+    &:hover {
+        background-color: $green !important;
+    }
+}
+
+.icon {
+    width: 1.2rem;
+    height: 1.2rem;
+    &:active {
+        color: $white !important;
+    }
+}

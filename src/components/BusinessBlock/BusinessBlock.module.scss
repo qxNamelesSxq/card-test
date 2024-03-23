@@ -1,0 +1,12 @@
+@import '/src/global.scss';
+
+@media screen and (max-width: 992px) {
+    .businnesBlockHeader {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 993px) {
+    .businnesBlockHeader {
+        width: 75%;
+    }
+}

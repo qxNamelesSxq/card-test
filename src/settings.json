@@ -1,0 +1,6 @@
+{
+    "localDB": {
+        "nameDB": "testDB",
+        "nameCollection": "myCard"
+    }
+}

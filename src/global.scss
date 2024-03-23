@@ -1,0 +1,42 @@
+// colors:
+$green: #1b6111;
+$light-green: #58BC48;
+$grey: #15212C;
+$light-grey: #858c8f;
+$dark-grey: #232526;
+$white: #ffffff;
+$black: #000000;
+
+// font-size:
+$header-1: 4.5rem;
+$header-3: 2.25rem;
+$header-big-number: 30rem;
+
+.header1 {
+    font-size: $header-1;
+}
+
+.header3 {
+    font-size: $header-3;
+    color: $light-green
+}
+
+.bodyBlock {
+    min-height: 37.5rem;
+    background-size: auto 100%;
+    background-position: center;
+    box-shadow: 3px 10px 74px 34px rgba(0,0,0,0.81);
+    padding: 0 !important;
+}
+
+.bigNumber {
+    font-size: $header-big-number;
+    color: $white;
+    font-weight: 700;
+    height: 16rem;
+    overflow: hidden;
+}
+
+.row {
+    margin: 0 !important;
+}

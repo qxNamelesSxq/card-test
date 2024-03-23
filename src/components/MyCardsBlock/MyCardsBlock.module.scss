@@ -1,0 +1,13 @@
+@import '/src/global.scss';
+
+.containerBlock {
+    background-color: $black;
+    padding: 5rem 0;
+    box-shadow: 3px 10px 74px 34px rgba(0,0,0,0.81);
+    & h1 {
+        font-size: $header-1;
+        color: $light-green;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}
